@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Graduate';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Graduate'),
+	local('Graduate-Regular'),
+	url(fonts/graduate.eot) format('embedded-opentype'),
+	url(fonts/graduate.ttf) format('truetype'),
+	url(fonts/graduate.woff) format('woff');
+}
+html {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Times New Roman";
+	color: #333;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	border-top: 5px solid #fab413;
+	background: url(img/bg.png);
+}
+ul, ol {
+	list-style-type: none;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #333;
+}
+header {
+	height: 180px;
+	background: #efefef;
+}
+header nav {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+header a.logo {
+	display: block;
+	width: 185px;
+	height: 100px;
+	background: url(img/enclave-games-logo.png) no-repeat;
+	float: left;
+	text-indent: -5000px;
+	margin: 15px 15px 15px 0;
+}
+header a.hire {
+	display: block;
+	float: left;
+	width: 135px;
+	height: 45px;
+	background: url(img/hire.png) no-repeat;
+	text-indent: -5000px;
+	margin: 40px 0 0 110px;
+}
+header .menu {
+	float: right;
+	margin-right: 110px;
+}
+header .menu li {
+	float: left;
+	margin: 0 0 0 25px;
+}
+header .menu a {
+	display: block;
+	font-family: "Graduate", "Times New Roman", Verdana;
+	color: #000;
+	font-size: 20px;
+	padding: 49px 0;
+}
+header .menu a:hover,
+header .menu a.active {
+	border-bottom: 3px solid #fab413;
+}
+header .social {
+	position: absolute;
+	top: 48px;
+	right: 0;
+}
+header .social li {
+	float: left;
+}
+header .social li a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-indent: -5000px;
+	margin: 0 0 0 10px;
+}
+header .social-facebook a {
+	background: url(img/icon-facebook.png) no-repeat;
+}
+header .social-twitter a {
+	background: url(img/icon-twitter.png) no-repeat;
+}
+section {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: -50px;
+	padding: 30px 0;
+	position: relative;
+}
+.content h1 {
+	position: relative;
+	font-size: 38px;
+	font-family: "Graduate", "Times New Roman", Verdana;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-left: 30px;
+}
+.content h2 {
+	position: relative;
+	font-size: 34px;
+	font-family: "Graduate", "Times New Roman", Verdana;
+	font-weight: normal;
+	color: #fab413;
+	margin-bottom: 10px;
+}
+.content h3 {
+	font-size: 24px;
+	font-family: "Graduate", "Times New Roman", Verdana;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 5px;
+}
+h3.find {
+	margin-top: 50px;
+}
+.content h2:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	width: 97px;
+	height: 28px;
+	background: url(img/decoration.png) no-repeat;
+}
+.content h2:after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	width: 97px;
+	height: 28px;
+	background: url(img/decoration.png) no-repeat;
+}
+.content p {
+	margin-bottom: 20px;
+}
+.content span {
+	color: #FAB413;
+	font-weight: bold;
+}
+.content .intro {
+	padding-bottom: 30px;
+}
+.content .intro p {
+	 text-align: left;
+	 padding-left: 50px;
+}
+.content .founder {
+	float: right;
+	position: absolute;
+	top: 30px;
+	right: 80px;
+	line-height: 20px;
+}
+.content .founder span {
+	display: block;
+	margin-top: 5px;
+	color: #999;
+	font-size: 14px;
+	font-weight: normal;
+}
+footer {
+	color: #666;
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+footer p {
+	line-height: 50px;
+	font-size: 14px;
+	padding: 0 10px;
+}
+footer span {
+	display: block;
+	float: right;
+}
+
+.starter {
+	text-align: left;
+}
+.starter a {
+	color: #0091BE;
+}
+.starter a:hover {
+	border-bottom: 1px solid #0091BE;
+}
+.starter .intro img {
+	float: right;
+	margin-right: 40px;
+}
+.starter h3 {
+	margin-left: 50px;
+}
+.starter h3 span {
+	visibility: hidden;
+}
+.starter h3 span a {
+	color: #ccc;
+}
+.starter h3:hover span {
+	float: right;
+	visibility: visible;
+	padding-left: 20px;
+	font-size: 12px;
+	color: #ccc;
+	margin-right: 50px;
+}
+.starter p {
+	margin: 5px 0 10px 30px;
+}
+.starter ul {
+	margin: 0 0 40px 50px;
+}
+.starter ul li a {
+	display: inline-block;
+	width: 250px;
+	font-weight: bold;
+	color: #0091BE;
+	border-bottom: none;
+}
+.starter ul li a:hover {
+	border-bottom: none;
+}
+.starter ul li {
+	list-style-type: circle;
+}
+.starter span.link {
+	font-weight: bold;
+	color: #0091BE;
+}
+.starter .developers {
+	margin: 0 50px 30px;
+}
