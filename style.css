@@ -261,3 +261,8 @@ footer span {
 .starter .developers {
 	margin: 0 50px 30px;
 }
+
+.form-styling {
+	float: right;
+	margin-right: 12px;
+}
