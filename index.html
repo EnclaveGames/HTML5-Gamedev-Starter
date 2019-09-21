@@ -38,7 +38,7 @@
       <li><a href="http://html5gameengine.com/">HTML5 Game Engine list</a> - list of the most popular HTML5 game engines</li>
       <li><a href="https://github.com/bebraw/jswiki/wiki/Game-Engines">Game Engines GitHub Wiki</a> - list of all the game engines, frameworks and renderers</li>
       <li><a href="https://www.scirra.com/construct2">Construct 2</a> - most popular framework, free, targeted for non-programmers (drag and drop)</li>
-      <li><a href="http://impactjs.com/">ImpactJS</a> - top-quality game engine for programmers, costs $99 but it's worth the price</li>
+      <li><a href="http://impactjs.com/">ImpactJS</a> - top-quality game engine for programmers, published under the MIT Open Source License</li>
       <li><a href="https://phaser.io/">Phaser</a> - engine for desktop and mobile HTML5 games with great community</li>
       <li><a href="https://turbulenz.com/">Turbulenz</a> - incredibly efficient 3D game engine offering great toolset for developers</li>
       <li><a href="http://www.clockworkchilli.com/index.php/main/tech">WADE</a> - web app development engine</li>
@@ -87,6 +87,7 @@
       <li><a href="http://clay.io/">Clay.io</a> - distribute your game and provide APIs at the same time</li>
       <li><a href="http://scoreoid.net/">Scoreoid</a> - high scores, achievements, analytics, cloud storage, etc</li>
       <li><a href="http://www.leadbolt.com/">LeadBolt</a> - monetize your HTML5 games</li>
+      <li><a href="https://firebase.google.com/docs/games/setup">firebase</a> - analytics, authentication, cloud storage</li>
     </ul>
     <h3 id="wrappers">Wrappers and packagers<span><a href="#wrappers">#wrappers</a></span></h3>
     <p>Wrap and package your HTML5 game for native platforms like iOS, Android and others.</p>
@@ -129,7 +130,7 @@
   </article>
 </section>
 <footer>
-  <p><span>contact@enclavegames.com</span> Enclave Games &copy; 2014</p>
+  <p><span>contact@enclavegames.com</span> Enclave Games &copy; <i id="copyright"></i></p>
 </footer>
 
 <script type="text/javascript">
@@ -142,6 +143,9 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-
+<script type="text/javascript">
+	var copyright = document.querySelector('#copyright')
+	copyright.innerText = new Date().getFullYear();
+</script>
 </body>
 </html>
